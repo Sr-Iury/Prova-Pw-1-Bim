@@ -94,22 +94,22 @@ header{
 }
 
 #img-1{
-  background-image: url('../img/Arma-1.jpg');
+  background-image: url('../img/CAR-1.jpg');
 }
 #img-2{
-  background-image: url('../img/Arma-2.jpg');
+  background-image: url('../img/CAR-2.jpg');
 }
 #img-3{
-  background-image: url('../img/Arma-3.jpg');
+  background-image: url('../img/arma-hkh16.png');
 }
 #img-4{
-  background-image: url('../img/Arma-4.jpg');
+  background-image: url('../img/CAR-4.jpg');
 }
 #img-5{
-  background-image: url('../img/Arma-5.jpg');
+  background-image: url('../img/CAR-5.jpg');
 }
 #img-6{
-  background-image: url('../img/Arma-6.jpg');
+  background-image: url('../img/CAR-6.jpg');
 }
 .nomeDaArma{
   margin-bottom: 10px;
@@ -279,4 +279,108 @@ ul {
   margin-top: -300px;
   margin-left: 135px;
   width: 50px;
+}
+.card-carrinho{
+  margin: 90px;
+  display: flex;
+  height: 50%;
+  width: 80%;
+  border: 3px solid #0c0142;
+  border-radius: 13px;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.imagem-carrinho{
+  width: 350px;
+  border-top-left-radius: 7px; /* Raio do canto superior esquerdo */
+  border-bottom-left-radius: 7px; /* Raio do canto superior direito */
+  margin-right: 9px;
+}
+.coluna{
+  display: flex;
+  flex-direction: column;
+}
+.imagem-button{
+  width: 20px;
+}
+.label{
+  font-size: 18px;
+}
+.input{
+  border: 1px solid #0c0142;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 19px;
+}
+.input:focus {
+  outline: none;
+}
+.input:hover {
+  cursor: pointer;
+}
+.btn-carrinho{
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #0c0142;
+  color: #fff;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 400px;
+  margin-top: -30px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-carrinho:hover{
+  background-color: #02396f;
+  font-weight: bold;
+}
+
+.listra-inferior{
+  border: 3px solid #0c0142;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 90px;
+}
+.listra-superior{
+  border: 3px solid #0c0142;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 90px;
+}
+.btn-finalizar{
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #0c0142;
+  color: #fff;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+
+.btn-finalizar:hover{
+  background-color: #02396f;
+  font-weight: bold;
+}
+
+.imagem-button-finalizar{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.btn-final{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
 }
