@@ -6,6 +6,9 @@ body{
   margin: 0;
 }
 
+.Estado{
+  margin-top: 36px;
+}
 .header{
   background-image: url('../img/Logo.jpg');
   background-repeat: no-repeat; /* Impede a repetição da imagem */
